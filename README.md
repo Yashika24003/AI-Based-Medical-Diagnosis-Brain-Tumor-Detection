@@ -25,7 +25,6 @@ cd brain-tumor-detection
 pip install -r requirements.txt
 **requirements.txt**
 This file includes all necessary dependencies for your Flask app, model inference, and front-end:
-```
 flask
 tensorflow
 numpy
@@ -33,6 +32,8 @@ pandas
 scikit-learn
 Pillow
 matplotlib
+
+```
 
 ```
 
