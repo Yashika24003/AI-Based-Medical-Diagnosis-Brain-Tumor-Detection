@@ -41,7 +41,7 @@ This project is a web-based Brain Tumor Detection system that utilizes deep lear
 ```sh
 git clone https://github.com/yourusername/brain-tumor-detection.git
 cd brain-tumor-detection
-2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies
 sh
 Copy
 Edit
