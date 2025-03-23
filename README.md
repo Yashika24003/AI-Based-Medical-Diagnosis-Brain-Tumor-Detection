@@ -1,6 +1,5 @@
 # AI-Based-Medical-Diagnosis-Brain-Tumor-Detection
 
-```markdown
 # Brain Tumor Detection using ResNet-50 and Flask
 
 This project is a web-based Brain Tumor Detection system that utilizes deep learning with **ResNet-50** for MRI image classification. The model is trained using TensorFlow and deployed using Flask.
