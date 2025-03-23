@@ -47,8 +47,11 @@ brain-tumor-detection/
 │── app.py                  # Flask application
 │── requirements.txt        # Dependencies
 │── README.md               # Project documentation
+
 📸 Screenshots
-Upload Image	Prediction Result
+
+![Image](https://github.com/user-attachments/assets/cac04167-076f-48c2-8f47-8ccdf043bb6b)
+
 🧪 Testing
 Upload an MRI scan image.
 
@@ -67,4 +70,4 @@ Extend model training with a larger dataset.
 Feel free to fork this repository and submit a pull request!
 
 
-![Image](https://github.com/user-attachments/assets/cac04167-076f-48c2-8f47-8ccdf043bb6b)
+
