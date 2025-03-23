@@ -42,12 +42,12 @@ This project is a web-based Brain Tumor Detection system that utilizes deep lear
 git clone https://github.com/yourusername/brain-tumor-detection.git
 cd brain-tumor-detection
 ### 2️⃣ Install Dependencies
-sh
+```sh
 Copy
 Edit
 pip install -r requirements.txt
-3️⃣ Run the Flask App
-sh
+### 3️⃣ Run the Flask App
+```sh
 Copy
 Edit
 python app.py
