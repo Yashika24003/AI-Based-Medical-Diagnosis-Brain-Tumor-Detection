@@ -34,9 +34,6 @@ Pillow
 matplotlib
 
 ```
-
-```
-
 **3️⃣ Run the Flask App**
 ```sh
 python app.py
