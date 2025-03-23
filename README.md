@@ -33,7 +33,7 @@ This project is a web-based Brain Tumor Detection system that utilizes deep lear
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/yourusername/brain-tumor-detection.git
+git clone https://github.com/Yashika242003/brain-tumor-detection.git
 cd brain-tumor-detection
 ```
 
@@ -71,9 +71,6 @@ brain-tumor-detection/
 ## 📸 Screenshots
 
 ![Image](https://github.com/user-attachments/assets/cac04167-076f-48c2-8f47-8ccdf043bb6b)
-| Upload Image | Prediction Result |
-|-------------|----------------|
-| ![Upload](static/screenshot1.png) | ![Result](static/screenshot2.png) |
 
 ---
 
@@ -90,17 +87,5 @@ brain-tumor-detection/
 - Extend model training with a larger dataset.
 
 ---
-
-## 🤝 Contributing
-Feel free to fork this repository and submit a pull request!
-
----
-
-## 📜 License
-MIT License © 2025 Your Name
-```
-
-This README gives a professional look with clear **setup steps**, **features**, and **future enhancements**. Let me know if you want modifications! 🚀
-
 
 
