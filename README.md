@@ -5,7 +5,7 @@
 
 This project is a web-based Brain Tumor Detection system that utilizes deep learning with **ResNet-50** for MRI image classification. The model is trained using TensorFlow and deployed using Flask.
 
-## 📌 Features
+** 📌 Features**
 - **Deep Learning Model:** Uses a pre-trained ResNet-50 model fine-tuned for MRI image classification.
 - **Web Interface:** Allows users to upload MRI images for real-time tumor detection.
 - **Flask Backend:** Handles image processing, model inference, and response generation.
@@ -13,15 +13,15 @@ This project is a web-based Brain Tumor Detection system that utilizes deep lear
 
 ---
 
-## 🚀 Installation
+**🚀 Installation**
 
-### 1️⃣ Clone the Repository
+**1️⃣ Clone the Repository**
 ```sh
 git clone https://github.com/Yashika242003/brain-tumor-detection.git
 cd brain-tumor-detection
 ```
 
-### 2️⃣ Install Dependencies
+**2️⃣ Install Dependencies**
 ```sh
 pip install -r requirements.txt
 ### ** `requirements.txt`**
@@ -37,7 +37,7 @@ matplotlib
 
 ```
 
-### 3️⃣ Run the Flask App
+**3️⃣ Run the Flask App**
 ```sh
 python app.py
 ```
