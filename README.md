@@ -69,6 +69,7 @@ brain-tumor-detection/
 - Upload an MRI scan image.
 - Click the **Predict** button.
 - The model will classify the tumor type.
+- Display confident score and general survival information
 
 ---
 
