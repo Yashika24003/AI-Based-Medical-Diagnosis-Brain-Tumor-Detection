@@ -57,3 +57,42 @@ body {
     margin-top: 20px;
     font-weight: bold;
 }
+
+.prediction, 
+.confidence, 
+.survival {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.error {
+    color: #ff4c4c;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#result-box {
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    background-color: rgba(0, 0, 0, 0.3); /* semi-transparent black */
+    border-radius: 15px;
+    color: #fff;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#result-box div {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.error {
+    color: #ff4c4c;
+    font-weight: bold;
+}
+
