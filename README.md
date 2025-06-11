@@ -61,7 +61,7 @@ brain-tumor-detection/
 
 ## 📸 Screenshots
 
-![Image](https://github.com/user-attachments/assets/cac04167-076f-48c2-8f47-8ccdf043bb6b)
+![Image](https://github.com/user-attachments/assets/85b5ee7b-1487-4920-9ae2-a44f33f1bb6f)
 
 ---
 
