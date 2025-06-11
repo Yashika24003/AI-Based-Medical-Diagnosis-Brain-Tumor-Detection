@@ -1,19 +1,19 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     let dropArea = document.getElementById("drop-area");
     let fileInput = document.getElementById("fileInput");
     let fileNameDisplay = document.getElementById("file-name");
     let resultDiv = document.getElementById("result");
 
-    dropArea.addEventListener("dragover", function(e) {
+    dropArea.addEventListener("dragover", function (e) {
         e.preventDefault();
         dropArea.style.border = "2px solid green";
     });
 
-    dropArea.addEventListener("dragleave", function(e) {
+    dropArea.addEventListener("dragleave", function (e) {
         dropArea.style.border = "2px dashed white";
     });
 
-    dropArea.addEventListener("drop", function(e) {
+    dropArea.addEventListener("drop", function (e) {
         e.preventDefault();
         dropArea.style.border = "2px dashed white";
         let files = e.dataTransfer.files;
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    fileInput.addEventListener("change", function() {
+    fileInput.addEventListener("change", function () {
         if (fileInput.files.length > 0) {
             fileNameDisplay.innerText = fileInput.files[0].name;
         }
@@ -50,12 +50,16 @@ function predictImage() {
     .then(response => response.json())
     .then(data => {
         if (data.error) {
-            resultDiv.innerHTML = "Error: " + data.error;
+            resultDiv.innerHTML = `<div class="error">Error: ${data.error}</div>`;
         } else {
-            resultDiv.innerHTML = "<strong>Prediction:</strong> " + data.prediction;
+            resultDiv.innerHTML = `
+                <div class="prediction"><strong>Prediction:</strong> ${data.prediction}</div>
+                <div class="confidence"><strong>Confidence:</strong> ${data.confidence}</div>
+                <div class="survival"><strong>Survival Info:</strong> ${data.survival}</div>
+            `;
         }
     })
     .catch(error => {
-        resultDiv.innerHTML = "Error: " + error;
+        resultDiv.innerHTML = `<div class="error">Error: ${error}</div>`;
     });
 }
